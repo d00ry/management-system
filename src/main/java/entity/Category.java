@@ -47,16 +47,16 @@ public class Category {
         this.title = title;
     }
 
-    public LocalDateTime getCreatedAt() {
-        return createdAt;
+    public LocalDateTime getCreatedAt(LocalDateTime createdAt) {
+        return this.createdAt;
     }
 
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
 
-    public LocalDateTime getUpdatedAt() {
-        return updatedAt;
+    public LocalDateTime getUpdatedAt(LocalDateTime updatedAt) {
+        return this.updatedAt;
     }
 
     public void setUpdatedAt(LocalDateTime updatedAt) {
